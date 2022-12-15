@@ -1,14 +1,12 @@
 <script setup>
 import TheHeader from './components/HeaderFiles/TheHeader.vue'
-import TheFooter from './components/FooterFIles/TheFooter.vue'
+import TheFooter from './components/FooterFiles/TheFooter.vue'
 </script>
 
 <template>
   <div>
     <TheHeader />
-    <main>
-      <router-view :key="$route.fullPath" />
-    </main>
+    <router-view :key="$route.fullPath" />
     <TheFooter />
   </div>
 </template>

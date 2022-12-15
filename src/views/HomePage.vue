@@ -7,15 +7,13 @@ import CallToAction from '../components/CallToAction.vue'
 </script>
 
 <template>
-  <div>
-    <TheHeader />
-    <main>
-      <HeroSection />
-      <LogoCloud />
-      <FeaturesSection />
-      <GradientSection />
-      <CallToAction />
-    </main>
-    <TheFooter />
-  </div>
+
+  <main>
+    <HeroSection />
+    <LogoCloud />
+    <FeaturesSection />
+    <GradientSection />
+    <CallToAction />
+  </main>
+
 </template>

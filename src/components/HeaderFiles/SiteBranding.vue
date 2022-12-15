@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-start lg:w-0 lg:flex-1">
-    <a href="https://cv.jamesturner.dev">
+    <a href="/">
       <span class="sr-only">
         James Turner Dev
       </span>
