@@ -4,25 +4,20 @@
     <Popover class="relative bg-white">
       <div
         class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
-        <div class="flex justify-start lg:w-0 lg:flex-1">
-          <a href="https://cv.jamesturner.dev">
-            <span class="sr-only">James Turner Dev</span>
-            <img class="h-14 w-auto"
-              src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/4ca48639-25ba-4c3a-5106-2c93c2c83100/public"
-              alt="James Turner Dev" />
-          </a>
-        </div>
+
+        <SiteBranding />
+
         <div class="-my-2 -mr-2 md:hidden">
           <PopoverButton
-            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            class="inline-flex items-center justify-center rounded bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
             <span class="sr-only">Open menu</span>
-            <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+            <Bars3Icon class="h-8 w-8" aria-hidden="true" />
           </PopoverButton>
         </div>
         <PopoverGroup as="nav" class="hidden space-x-10 md:flex">
           <Popover class="relative" v-slot="{ open }">
             <PopoverButton
-              :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2']">
+              :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
               <span>Solutions</span>
               <ChevronDownIcon
                 :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']"
@@ -39,8 +34,8 @@
                     <a v-for="item in solutions" :key="item.name" :href="item.href"
                       class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50">
                       <div
-                        class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                        <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                        class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded bg-gradient-to-r from-purple-600 to-sky-600 text-white sm:h-12 sm:w-12">
+                        <component :is="item.icon" class="h-8 w-8" aria-hidden="true" />
                       </div>
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">{{ item.name }}</p>
@@ -57,18 +52,18 @@
             class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
             Pricing
           </a>
-          <a href="http://github.com" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="https://github.com/jamesturner-dev/landingPage" target="_blank"
+            class="text-base font-medium text-gray-500 hover:text-gray-900">
             This Code
           </a>
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Company</a>
-        </PopoverGroup>
-        <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-          <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">Sign in</a>
-          <a href="#"
-            class="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">
-            Sign up
+          <a v-on:click="wFire('WordPress')"
+            class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
+            WordPress?
           </a>
-        </div>
+        </PopoverGroup>
+
+        <HeaderButtons />
+
       </div>
 
       <transition enter-active-class="duration-200 ease-out" enter-from-class="opacity-0 scale-95"
@@ -80,14 +75,14 @@
               <div class="flex items-center justify-between">
                 <div>
                   <img class="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?from-color=purple&from-shade=600&to-color=indigo&to-shade=600&toShade=600"
-                    alt="Your Company" />
+                    src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/4ca48639-25ba-4c3a-5106-2c93c2c83100/public"
+                    alt="James Turner Dev" />
                 </div>
                 <div class="-mr-2">
                   <PopoverButton
-                    class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    class="inline-flex items-center justify-center rounded bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
                     <span class="sr-only">Close menu</span>
-                    <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon class="h-8 w-8" aria-hidden="true" />
                   </PopoverButton>
                 </div>
               </div>
@@ -96,8 +91,8 @@
                   <a v-for="item in solutions" :key="item.name" :href="item.href"
                     class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
                     <div
-                      class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
-                      <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                      class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded bg-gradient-to-r from-purple-600 to-sky-600 text-white">
+                      <component :is="item.icon" class="h-8 w-8" aria-hidden="true" />
                     </div>
                     <div class="ml-4 text-base font-medium text-gray-900">{{ item.name }}</div>
                   </a>
@@ -105,22 +100,19 @@
               </div>
             </div>
             <div class="py-6 px-5">
-              <div class="grid grid-cols-2 gap-4">
-                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Pricing</a>
-                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Partners</a>
-                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Company</a>
-              </div>
-              <div class="mt-6">
-                <a href="#"
-                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Sign
-                  up</a>
-                <p class="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?
-                  <a href="#" class="text-gray-900">Sign in</a>
-                </p>
-              </div>
+              <a v-on:click="buttonHandler('sign up')"
+                class="flex w-full items-center justify-center rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
+                Sign up
+              </a>
+              <p class="mt-6 text-center text-base font-medium text-gray-500">
+                Existing customer?
+                <a v-on:click="buttonHandler('sign in')" class="text-gray-900 cursor-pointer">
+                  Sign in
+                </a>
+              </p>
             </div>
           </div>
+
         </PopoverPanel>
       </transition>
     </Popover>
@@ -129,8 +121,11 @@
 
 <script setup>
 import Swal from "sweetalert2";
+import HeaderButtons from "./HeaderButtons.vue";
+import SiteBranding from "./SiteBranding.vue";
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
+
 import {
   Bars3Icon, XMarkIcon, ChatBubbleBottomCenterTextIcon,
   ChatBubbleLeftRightIcon, InboxIcon,
@@ -143,8 +138,46 @@ const sFire = (m) => {
     text: `I charge a straight $100/hour for my services.`,
     icon: 'info',
     confirmButtonText: 'Cool',
-    
+
   })
+}
+
+const wFire = (w) => {
+  Swal.fire({
+    title: `Do you still do ${w}?`,
+    text: `Yes, I still create WordPress sites for clients and agencies.  I charge a straight $100/hour for my services regardless of the platform.  I specialize in Vue but can work with any framework or CMS and have more than a decade of WP experience.`,
+    icon: 'info',
+    confirmButtonText: 'Cool',
+
+  })
+}
+
+const buttonHandler = (e) => {
+
+  const { value: formValues } = Swal.fire({
+    title: e,
+    html:
+      '<input id="swal-input1" class="swal2-input" type="text" placeholder="username">' +
+      '<input id="swal-input2" class="swal2-input" type="password" placeholder="password">',
+    focusConfirm: false,
+    preConfirm: () => {
+      return [
+        document.getElementById('swal-input1').value,
+        document.getElementById('swal-input2').value
+      ]
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire(
+        'Thank You!',
+        'You are being logged in.',
+        'success'
+      )
+    }
+
+
+  })
+
 }
 
 const solutions = [

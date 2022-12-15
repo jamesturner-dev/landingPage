@@ -18,12 +18,12 @@ const count = ref(0);
 
   <p class="mt-4 space-x-4">
     <a href="tel:+1-850-270-3180" class="text-emerald-500 underline transition-all duration-200 ease-in-out hover:no-underline
-      hover:bg-gradient-to-r hover:from-green-600 hover:to-sky-400 p-2 hover:text-white rounded-md">
+      hover:bg-gradient-to-r hover:from-green-600 hover:to-sky-400 p-2 hover:text-white rounded">
       1.850.270.3180
     </a>
     &nbsp; &nbsp; .
     <a href="mailto:james@jamesturner.dev" class="text-emerald-500 underline transition-all duration-200 ease-in-out hover:no-underline
-      hover:bg-gradient-to-r hover:from-green-600 hover:to-sky-400 p-2 hover:text-white rounded-md"
+      hover:bg-gradient-to-r hover:from-green-600 hover:to-sky-400 p-2 hover:text-white rounded"
       target="_blank">james@jamesturner.dev</a>
   </p>
 

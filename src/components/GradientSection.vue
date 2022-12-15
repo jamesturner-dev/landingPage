@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
+  <div class="bg-gradient-to-r from-purple-800 to-sky-700">
     <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
       <h2 class="text-3xl font-bold tracking-tight text-white">
         I admit, I am fairly opinionated about front-end development.
@@ -12,10 +12,10 @@
         class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
         <div v-for="feature in features" :key="feature.name">
           <div>
-            <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
+            <span class="flex h-12 w-12 items-center justify-center rounded bg-white bg-opacity-10">
               <component 
                 :is="feature.icon" 
-                class="h-6 w-6 text-white" 
+                class="h-8 w-8 text-white" 
                 aria-hidden="true" />
             </span>
           </div>
@@ -38,54 +38,55 @@
 import {
   ArrowUturnLeftIcon,
   ChatBubbleLeftEllipsisIcon,
-  DocumentChartBarIcon,
+  FireIcon,
+  CodeBracketIcon,
   HeartIcon,
-  InboxIcon,
+  Cog6ToothIcon,
   PencilSquareIcon,
-  TrashIcon,
-  UsersIcon,
+  ShareIcon,
+  SparklesIcon,
 } from '@heroicons/vue/24/outline'
 
 const features = [
   {
-    name: 'Taildwind CSS',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: InboxIcon,
+    name: 'Vue 3',
+    description: 'If I had to pick one framework to use for the rest of my life, it would be Vue. It is fast, easy to learn, and has a great community.',
+    icon: HeartIcon,
   },
   {
-    name: 'Vue 3',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: UsersIcon,
+    name: 'Tailwind CSS',
+    description: 'I love Tailwind. It is a utility-first CSS framework that makes it easy to build beautiful, responsive layouts.',
+    icon: CodeBracketIcon,
   },
   {
     name: 'Visual Studio Code',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: TrashIcon,
+    description: 'I use VS Code for all my development. It is fast, extensible, and has a great community.',
+    icon: PencilSquareIcon,
   },
   {
     name: 'Vite',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: PencilSquareIcon,
+    description: 'Vite is a build tool that makes it easy to develop Vue applications. It is fast, easy to use, and has a great community.',
+    icon: Cog6ToothIcon,
   },
   {
     name: 'GitHub',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: DocumentChartBarIcon,
+    icon: ShareIcon,
   },
   {
-    name: 'Saved Replies',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ArrowUturnLeftIcon,
+    name: 'Prettier',
+    description: 'Prettier is a code formatter that makes it easy to keep your code clean and consistent.',
+    icon: SparklesIcon,
   },
   {
-    name: 'Email Commenting',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'FormKit',
+    description: 'Why build forms from scratch when you can use FormKit? It is a Vue component library that makes it easy to build forms.',
     icon: ChatBubbleLeftEllipsisIcon,
   },
   {
-    name: 'Connect with Customers',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: HeartIcon,
+    name: 'Heroicons',
+    description: 'Heroicons is a set of SVG icons that are easy to use and look great. I use them in my projects all the time.',
+    icon: FireIcon,
   },
 ]
 
