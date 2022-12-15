@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 border-t border-purple-200 md:flex md:items-center md:justify-between">
+  <div class="p-5 border-t border-purple-500 md:flex md:items-center md:justify-between">
     <div class="flex space-x-6 md:order-2">
       <a v-for="item in social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-white">
         <span class="sr-only">{{ item.name }}</span>
