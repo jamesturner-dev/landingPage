@@ -2,10 +2,9 @@
   <div>
     <h3 class="text-sm font-medium text-gray-400">Trending:</h3>
     <ul role="list" class="mt-4 space-y-4">
-      <li v-for="item in users" :key="item.name">
-        <a :href="item.href"
-          class="px-2 py-1 text-sm dark:text-gray-400 dark:hover:text-white text-gray-500 hover:text-gray-900">
-          {{ item.name }}
+      <li v-for="link in trending" :key="link.name">
+        <a :href="link.href" class="px-2 py-1 text-sm text-sky-600 hover:text-white">
+          {{ link.name }}
         </a>
       </li>
     </ul>
@@ -13,7 +12,7 @@
 </template>
 
 <script setup>
-const users = [
+const trending = [
   { name: "Politics Headlines", href: "https://headlin3s.com/categories/Politics" },
   { name: "Video Links", href: "https://linkz.network/cat/video" },
   { name: "Social Media", href: "https://headlin3s.com/categories/social%20media" },

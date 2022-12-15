@@ -5,8 +5,7 @@
     </h3>
     <ul role="list" class="mt-4 space-y-4">
       <li v-for="site in sites" :key="site.name">
-        <a :href="site.href"
-          class="px-2 text-sm dark:text-gray-400 dark:hover:text-white text-gray-500 hover:text-gray-900">
+        <a :href="site.href" class="px-2 text-sm text-purple-400 hover:text-white">
           {{ site.name }}
         </a>
       </li>

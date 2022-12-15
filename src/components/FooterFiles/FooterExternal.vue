@@ -5,8 +5,7 @@
     </h3>
     <ul role="list" class="mt-4 space-y-4">
       <li v-for="item in external" :key="item.name">
-        <a :href="item.href"
-          class="px-2 py-1 text-sm dark:text-gray-400 dark:hover:text-white text-gray-500 hover:text-gray-900">
+        <a :href="item.href" class="px-2 py-1 text-sm text-sky-500 hover:text-gray-900">
           {{ item.name }}
         </a>
       </li>

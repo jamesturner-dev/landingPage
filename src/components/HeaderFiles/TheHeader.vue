@@ -1,7 +1,7 @@
 <template>
 
   <header>
-    <Popover class="relative bg-white">
+    <Popover class="relative bg-white dark:bg-black">
       <div
         class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
 
@@ -9,7 +9,7 @@
 
         <div class="-my-2 -mr-2 md:hidden">
           <PopoverButton
-            class="inline-flex items-center justify-center rounded bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
+            class="inline-flex items-center justify-center rounded bg-white dark:bg-black p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
             <span class="sr-only">Open menu</span>
             <Bars3Icon class="h-8 w-8" aria-hidden="true" />
           </PopoverButton>
@@ -17,7 +17,7 @@
         <PopoverGroup as="nav" class="hidden space-x-10 md:flex">
           <Popover class="relative" v-slot="{ open }">
             <PopoverButton
-              :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
+              :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded dark:bg-black bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
               <span>Solutions</span>
               <ChevronDownIcon
                 :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']"
@@ -30,7 +30,7 @@
               <PopoverPanel
                 class="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2">
                 <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                  <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                  <div class="relative grid gap-6 bg-white dark:bg-black px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
                     <a v-for="item in solutions" :key="item.name" :href="item.href"
                       class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50">
                       <div
@@ -70,7 +70,8 @@
         enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in"
         leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
         <PopoverPanel focus class="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden">
-          <div class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+          <div
+            class="divide-y-2 divide-gray-50 dark:divide-gray-800 rounded-lg bg-white dark:bg-black shadow-lg ring-1 ring-black ring-opacity-5">
             <div class="px-5 pt-5 pb-6">
               <div class="flex items-center justify-between">
                 <div>
@@ -80,7 +81,7 @@
                 </div>
                 <div class="-mr-2">
                   <PopoverButton
-                    class="inline-flex items-center justify-center rounded bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
+                    class="inline-flex items-center justify-center rounded bg-white dark:bg-black p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
                     <span class="sr-only">Close menu</span>
                     <XMarkIcon class="h-8 w-8" aria-hidden="true" />
                   </PopoverButton>
@@ -89,12 +90,12 @@
               <div class="mt-6">
                 <nav class="grid grid-cols-1 gap-7">
                   <a v-for="item in solutions" :key="item.name" :href="item.href"
-                    class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+                    class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                     <div
                       class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded bg-gradient-to-r from-purple-600 to-sky-600 text-white">
                       <component :is="item.icon" class="h-8 w-8" aria-hidden="true" />
                     </div>
-                    <div class="ml-4 text-base font-medium text-gray-900">{{ item.name }}</div>
+                    <div class="ml-4 text-base font-medium text-gray-900 dark:text-gray-600">{{ item.name }}</div>
                   </a>
                 </nav>
               </div>
@@ -106,7 +107,7 @@
               </a>
               <p class="mt-6 text-center text-base font-medium text-gray-500">
                 Existing customer?
-                <a v-on:click="buttonHandler('sign in')" class="text-gray-900 cursor-pointer">
+                <a v-on:click="buttonHandler('sign in')" class="text-gray-900 dark:text-gray-300 cursor-pointer">
                   Sign in
                 </a>
               </p>
@@ -131,6 +132,7 @@ import {
   ChatBubbleLeftRightIcon, InboxIcon,
   QuestionMarkCircleIcon,
 } from '@heroicons/vue/24/outline'
+
 
 const sFire = (m) => {
   Swal.fire({

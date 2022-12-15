@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white dark:bg-black">
     <div
       class="mx-auto max-w-4xl py-16 px-4 sm:px-6 sm:py-24 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8">
-      <h2 class="text-4xl font-bold tracking-tight text-gray-600 sm:text-4xl">
+      <h2 class="text-4xl font-bold tracking-tight text-gray-600 dark:text-gray-300 sm:text-4xl">
         <span class="block">
           Thanks for stopping by...
         </span>
@@ -16,7 +16,7 @@
           Say Hi
         </a>
         <a href="https://linkz.network"
-          class="flex items-center justify-center rounded border border-transparent bg-sky-50 px-3 py-1.5 text-base font-medium text-sky-800 shadow-sm hover:bg-sky-100">
+          class="flex items-center justify-center rounded border border-transparent bg-sky-50 dark:bg-gray-900 dark:hover:bg-purple-900 dark:text-gray-300 px-3 py-1.5 text-base font-medium text-sky-800 shadow-sm hover:bg-sky-100">
           The Latest
         </a>
       </div>

@@ -4,10 +4,9 @@
       Articles:
     </h3>
     <ul role="list" class="mt-4 space-y-4">
-      <li v-for="item in categories" :key="item.name">
-        <a :href="item.href"
-          class="px-2 text-sm dark:text-gray-400 dark:hover:text-white text-gray-500 hover:text-gray-900">
-          {{ item.name }}
+      <li v-for="article in articles" :key="article.name">
+        <a :href="article.href" class="px-2 text-sm  text-purple-400 hover:text-white">
+          {{ article.name }}
         </a>
       </li>
     </ul>
@@ -15,7 +14,7 @@
 </template>
 
 <script setup>
-const categories = [
+const articles = [
   { name: "Ethereum Merge", href: "https://ambiguousredirect.com/ethereum-merge/" },
   { name: "The Free State?", href: "https://willfulminority.com/free-state/" },
   { name: "Python Podcasts", href: "https://aigg.blog/blog/python-podcastss" },

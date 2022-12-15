@@ -1,7 +1,7 @@
 <template>
 
   <div class="relative overflow-hidden pt-16 pb-32">
-    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
+    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100 dark:from-gray-900" />
     <div class="relative">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
         <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
@@ -13,7 +13,7 @@
               </span>
             </div>
             <div class="mt-6">
-              <h2 class="text-3xl font-bold tracking-tight text-gray-900">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300">
                 Custom, Professional, Development
               </h2>
               <p class="mt-4 text-lg text-gray-500">
@@ -31,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="mt-8 border-t border-gray-200 pt-6">
+          <div class="mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
             <blockquote>
               <div>
                 <p class="text-base text-gray-500">

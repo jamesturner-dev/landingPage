@@ -1,7 +1,7 @@
 <template>
 
   <div class="relative">
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 dark:bg-black" />
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="relative shadow-xl sm:overflow-hidden sm:rounded">
         <div class="absolute inset-0">
