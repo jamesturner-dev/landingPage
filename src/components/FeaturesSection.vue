@@ -76,7 +76,7 @@
               </span>
             </div>
             <div class="mt-6">
-              <h2 class="text-3xl font-bold tracking-tight text-gray-500">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-500 dark:text-gray-300">
                 White Label and Client Branding
               </h2>
               <p class="mt-4 text-lg text-gray-500">

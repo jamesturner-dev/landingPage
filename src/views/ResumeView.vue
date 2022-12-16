@@ -2,11 +2,13 @@
   <div class="overflow-hidden bg-gray-50 dark:bg-black dark:bg-opacity-95 py-10">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-prose text-base lg:max-w-none">
-        <h2 class="text-lg font-semibold text-sky-500">
+        <h2 class="text-lg font-semibold text-sky-500 border-b border-gray-200 dark:border-gray-800 mb-5">
           James T Kendall
           <div class="text-gray-400 text-sm mb-5">
             Full Stack = Node . Express . MongoDb . Vue 3
-            <div>james@jamesturner.dev</div>
+            <div><a href="mailto:james@jamesturner.dev" class="text-purple-400 opacity-70 hover:opacity-100">
+                james@jamesturner.dev</a>
+            </div>
           </div>
         </h2>
         <p class="text-xl -mb-5 font-bold leading-8 tracking-tight text-gray-600">
@@ -16,7 +18,8 @@
       <div class="relative z-10 mx-auto leading-5 max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
         <p class=" text-gray-500 pb-3">
           I like VSCode, Express, Vue, and
-          <a href="https://www.jetbrains.com/lp/mono/" class="text-sky-500" target="_blank">
+          <a href="https://www.jetbrains.com/lp/mono/" class="text-purple-400 opacity-70 hover:opacity-100"
+            target="_blank">
             Jet Brains Mono.
           </a>
           I code well in Python and Javascript, can work with sql and nosql db's, and have used multiple cloud
@@ -75,6 +78,10 @@
                           </div>
                         </template>
 
+
+
+
+
                         <template v-else-if="workHistoryItem.type === 'tags'"
                           condition="workHistoryItem.type === 'tags'">
                           <div>
@@ -106,7 +113,7 @@
                               {{ " " }}
                               <span class="mr-0.5">
                                 <template v-for="tag in workHistoryItem.tags" :key="tag.name">
-                                  <a :href="tag.href"
+                                  <span
                                     class="relative inline-flex items-center rounded-full border border-gray-300 dark:border-gray-800 px-3 py-0.5 text-sm">
                                     <span class="absolute flex flex-shrink-0 items-center justify-center">
                                       <span :class="[tag.color, 'h-1.5 w-1.5 rounded-full']" aria-hidden="true" />
@@ -114,7 +121,7 @@
                                     <span class="ml-3.5 font-medium text-gray-900 dark:text-gray-700">{{
                                         tag.name
                                     }}</span>
-                                  </a>
+                                  </span>
                                   {{ " " }}
                                 </template>
                               </span>
@@ -190,11 +197,11 @@ const workHistory = [
     type: "tags",
     person: { name: "Independent Developer", href: "#" },
     tags: [
-      { name: "HTML", href: "#", color: "bg-green-400" },
+      { name: "HTML", href: "#", color: "bg-purple-400" },
       {
         name: "CSS",
         href: "#",
-        color: "bg-gradient-to-r from-green-600 to-sky-400",
+        color: "bg-gradient-to-r from-purple-600 to-sky-400",
       },
       {
         name: "Javascript",
@@ -215,7 +222,7 @@ const workHistory = [
     person: { name: "Habooble", href: "#" },
     imageUrl:
       "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/46eef8bf-3562-4362-b23a-5c3681aec500/public",
-    comment: "Imagineered, developed, and deployed innovative custom web apps.",
+    comment: "Imagineered, developed, and deployed innovative custom web apps.  Was tasked with taking multiple concepts and turning them into reality.  Worked with clients, designers, and project managers.",
 
   },
   {
@@ -224,7 +231,7 @@ const workHistory = [
     person: { name: "i-click Network", href: "#" },
     imageUrl:
       "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/0b8e1569-30c7-4965-0fe5-d9785c796c00/public",
-    comment: "Created and sold a banner advertising network. Responsible for all servers and code.",
+    comment: "Created and sold a banner advertising network. Responsible for everyting ( concept, planning, implinetation, servers and code ) from its genesis to it's sale.",
 
   },
   {
@@ -233,7 +240,7 @@ const workHistory = [
     person: { name: "D2 Interactive", href: "#" },
     imageUrl:
       "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/366ad59c-d3a0-4f28-f02e-3c7cf508a200/public",
-    comment: "Co-founded what became the biggest web dev company in Mississippi at the time. six figure web projects for medium sized companies, universities, and organizations.",
+    comment: "Co-founded what became the biggest web dev company in Mississippi at the time. We delivered six figure web apps and infrastructure for medium sized companies, universities, and organizations using PHP, MySQL / PostgreSQL, and Javascript.",
   },
 ];
 </script>

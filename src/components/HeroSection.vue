@@ -28,7 +28,7 @@
           </p>
           <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
             <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-              <a href="https://cv.jamesturner.dev"
+              <a href="/resume"
                 class="flex items-center justify-center rounded border border-transparent bg-white px-3 py-1.5 text-base font-medium text-sky-700 shadow-sm hover:bg-sky-50 sm:px-8">
                 See Resume
               </a>

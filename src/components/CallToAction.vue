@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white dark:bg-black">
     <div
-      class="mx-auto max-w-4xl py-16 px-4 sm:px-6 sm:py-24 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8">
+      class="mx-auto max-w-4xl py-16 pb-10 px-4 sm:px-6 sm:py-20 sm:pb-10 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8">
       <h2 class="text-4xl font-bold tracking-tight text-gray-600 dark:text-gray-300 sm:text-4xl">
         <span class="block">
           Thanks for stopping by...
