@@ -48,17 +48,15 @@
             </transition>
           </Popover>
 
-          <a v-on:click="sFire('Pricing')"
-            class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
-            Pricing
+          <a href="/resume" class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
+            Resume
           </a>
           <a href="https://github.com/jamesturner-dev/landingPage" target="_blank"
             class="text-base font-medium text-gray-500 hover:text-gray-900">
             This Code
           </a>
-          <a v-on:click="wFire('WordPress')"
-            class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
-            WordPress?
+          <a href="/page/help" class="cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
+            Questions?
           </a>
         </PopoverGroup>
 
@@ -129,8 +127,8 @@ import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 import {
   Bars3Icon, XMarkIcon, ChatBubbleBottomCenterTextIcon,
-  ChatBubbleLeftRightIcon, InboxIcon,
-  QuestionMarkCircleIcon,
+  ChatBubbleLeftRightIcon, HeartIcon,
+  QuestionMarkCircleIcon, CodeBracketIcon
 } from '@heroicons/vue/24/outline'
 
 
@@ -184,26 +182,26 @@ const buttonHandler = (e) => {
 
 const solutions = [
   {
-    name: 'Inbox',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: InboxIcon,
+    name: 'Custom Development',
+    description: 'The modern JavaScript ecosystem is a complex. I can help you navigate it.',
+    href: '/#features',
+    icon: CodeBracketIcon,
   },
   {
-    name: 'Messaging',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: ChatBubbleBottomCenterTextIcon,
+    name: 'Frontend Stack',
+    description: 'I am fairly opinionated about front-end development.',
+    href: '/#stack',
+    icon: HeartIcon,
   },
   {
-    name: 'Live Chat',
-    description: "Your customers' data will be safe and secure.",
-    href: '#',
+    name: 'Message Me',
+    description: "Lets talk about your project.",
+    href: 'mailto:james@jamesturner.dev',
     icon: ChatBubbleLeftRightIcon,
   },
   {
     name: 'Knowledge Base',
-    description: "Connect with third-party tools that you're already using.",
+    description: "Get Answers to questions.",
     href: '#',
     icon: QuestionMarkCircleIcon,
   },

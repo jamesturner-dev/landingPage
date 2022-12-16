@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-5">
+  <section class="pt-5 bg-white dark:bg-black ">
     <div v-if="pageRoute == 'help'">
       <HelpPage />
     </div>

@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection.vue'
 import SiteStatus from '../components/SiteStatus.vue'
 import GradientSection from '../components/GradientSection.vue'
 import CallToAction from '../components/CallToAction.vue'
+import SiteStats from '../components/SiteStats.vue'
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import CallToAction from '../components/CallToAction.vue'
     <FeaturesSection />
     <GradientSection />
     <CallToAction />
+    <SiteStats />
   </main>
 </template>

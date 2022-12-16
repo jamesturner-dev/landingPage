@@ -1,6 +1,6 @@
 <template>
 
-  <div class="relative overflow-hidden pt-16 pb-32">
+  <div id="features" class="relative overflow-hidden pt-16 pb-32">
     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100 dark:from-gray-900" />
     <div class="relative">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">

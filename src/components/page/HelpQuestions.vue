@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <div class="mx-auto w-full max-w-lg rounded-2xl mt-10 p-2">
+    <div class="mx-auto w-full max-w-lg rounded-2xl my-10 p-2">
       <Disclosure v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -10,10 +10,8 @@
         <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
           <p class="mb-5">
             Yes, you can get the code for this site at
-            <a class="text-purple-700" href="https://github.com/jamesturner-dev/cb">
-              the github repository.</a> If you just want a directory of your own you can
-            <a class="text-purple-700" href="http://localhost:5173/user/register">
-              a free account</a> and get started right away.
+            <a class="text-purple-700" href="https://github.com/jamesturner-dev/landingPage">
+              the github repository.</a>
           </p>
         </DisclosurePanel>
       </Disclosure>
@@ -24,7 +22,7 @@
           <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
         </DisclosureButton>
         <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
-          <p class="mb-5"> Sure. I do consulting.
+          <p class="mb-5"> Sure. I do consulting for $100 an hour.
             You can
             <a href="https://commerce.coinbase.com/checkout/5699e4ab-924d-4ad5-affb-daf2e64afd8c"
               class="text-purple-700">click here</a> to book a session with me. I can help you with your
@@ -35,30 +33,58 @@
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-          <span>What are Directories?</span>
+          <span>Do you only do front-end?</span>
           <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
         </DisclosureButton>
         <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
           <p class="mb-5">
-            Directories are a way to organize your links. You can create a directory for
-            your favorite websites, or for your favorite topics. You can also create
-            directories for your friends and family. You can even create a directory for
-            your favorite links on cb.link.
+            No, I'm full stack and gernally use Node, Express, and Mongo DB on the backend. I have
+            been doing front-end longer and am much more fluent in it, but I can do both. I also
+            have Python and Go experience.
           </p>
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-          <span>Is cb.link Finished?</span>
+          <span>Is this site Finished?</span>
           <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
         </DisclosureButton>
         <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
           <p class="mb-5">
-            No. I am still working on it. I am adding new features all the time. If you would like to see a new feature,
-            or have a suggestion, please let me know. If you would like to help out
-            <a class="text-purple-500" href="https://github.com/jamesturner-dev/cb">
-            grab a copy of the source</a> and get hacking.
+            Honestly probabley not :) I'm always adding new features and fixing bugs. I'm also
+            trying to hit a deadline to post this as a resume.
+          </p>
+        </DisclosurePanel>
+      </Disclosure>
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+          <span>How can I get in touch?</span>
+          <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
+        </DisclosureButton>
+        <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
+          <p class="mb-5">
+            The best way is still email. I realize it's a bit antiquated but if you want to make
+            inital contact, it's your best bet. -
+            <a href="mailto:james@jamesturner.dev" class="text-sky-600">
+              james@jamesturner.dev
+            </a>
+          </p>
+        </DisclosurePanel>
+      </Disclosure>
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+          <span>Are you on social media?</span>
+          <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
+        </DisclosureButton>
+        <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
+          <p class="mb-5">
+            Just Twitter -
+            <a href="https://twitter.com/JamesTurnerDev" class="text-sky-600">
+              @JamesTurnerDev
+            </a>
           </p>
         </DisclosurePanel>
       </Disclosure>

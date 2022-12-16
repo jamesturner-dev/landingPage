@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-gray-50 py-10">
+  <div class="overflow-hidden bg-gray-50 dark:bg-black dark:bg-opacity-95 py-10">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-prose text-base lg:max-w-none">
         <h2 class="text-lg font-semibold text-sky-500">
@@ -9,7 +9,7 @@
             <div>james@jamesturner.dev</div>
           </div>
         </h2>
-        <p class="text-2xl  -mb-5 font-bold leading-8 tracking-tight text-gray-600">
+        <p class="text-xl -mb-5 font-bold leading-8 tracking-tight text-gray-600">
           I write code and manage modern dev stacks.
         </p>
       </div>
@@ -28,48 +28,48 @@
       <div class="lg:grid  lg:items-start lg:gap-8">
 
         <div class="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
-          <svg class="absolute top-0 right-0 -mt-20 -mr-20  xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384"
+          <svg class="absolute top-0 right-0 -mt-20 -mr-20 xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384"
             fill="none" viewBox="0 0 404 384" aria-hidden="true">
             <defs>
               <pattern id="bedc54bc-7371-44a2-a2bc-dc68d819ae60" x="0" y="0" width="20" height="20"
                 patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900" fill="currentColor" />
               </pattern>
             </defs>
             <rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
           </svg>
-          <blockquote class="relative rounded-lg bg-white shadow-lg mr-20">
+          <blockquote class="relative rounded-lg bg-white dark:bg-black shadow-lg mr-5">
             <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div class="mx-auto flow-root max-w-4xl">
                 <ul role="list" class="">
-
-
                   <li v-for="(workHistoryItem, workHistoryItemIdx) in workHistory" :key="workHistoryItem.id">
                     <div class="relative py-8">
 
                       <span v-if="workHistoryItemIdx !== workHistory.length - 1"
-                        class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true" />
+                        class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200 dark:bg-gray-900"
+                        aria-hidden="true" />
                       <div class="relative flex items-start space-x-3">
                         <template v-if="workHistoryItem.type === 'comment'">
                           <div class="relative">
                             <img
-                              class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white"
+                              class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400 dark:bg-gray-800 ring-8 ring-white dark:ring-gray-900"
                               :src="workHistoryItem.imageUrl" alt="" />
 
-                            <span class="absolute -bottom-0.5 -right-1 rounded-tl bg-white px-0.5 py-px">
+                            <span
+                              class="absolute -bottom-0.5 -right-1 rounded-tl bg-white dark:bg-gray-900 px-0.5 py-px">
                               <CodeBracketIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
                             </span>
                           </div>
                           <div class="min-w-0 flex-1">
                             <div>
-                              <div class="text-sm font-medium">
+                              <div class="text-sm font-medium text-gray-600">
                                 {{ workHistoryItem.person.name }}
                               </div>
                               <p class="mt-0.5 text-sm text-gray-500">
                                 {{ workHistoryItem.date }}
                               </p>
                             </div>
-                            <div class="mt-2 text-sm text-gray-700">
+                            <div class="mt-2 text-sm text-gray-700 dark:gray-400">
                               <p>{{ workHistoryItem.comment }}</p>
                             </div>
                           </div>
@@ -80,7 +80,7 @@
                           <div>
                             <div class="relative px-1">
                               <div
-                                class="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
+                                class="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 dark:bg-gray-900 ring-8 ring-white dark:ring-gray-900">
                                 <UserCircleIcon class="h-5 w-5 text-gray-500" aria-hidden="true" />
                               </div>
                             </div>
@@ -107,11 +107,11 @@
                               <span class="mr-0.5">
                                 <template v-for="tag in workHistoryItem.tags" :key="tag.name">
                                   <a :href="tag.href"
-                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                    class="relative inline-flex items-center rounded-full border border-gray-300 dark:border-gray-800 px-3 py-0.5 text-sm">
                                     <span class="absolute flex flex-shrink-0 items-center justify-center">
                                       <span :class="[tag.color, 'h-1.5 w-1.5 rounded-full']" aria-hidden="true" />
                                     </span>
-                                    <span class="ml-3.5 font-medium text-gray-900">{{
+                                    <span class="ml-3.5 font-medium text-gray-900 dark:text-gray-700">{{
                                         tag.name
                                     }}</span>
                                   </a>
@@ -138,7 +138,7 @@
                 <span class="font-bold text-gray-700">
                   Education:
                 </span>
-                <div class="mt-3 ml-3 pb-10">
+                <div class="mt-3 ml-3 pb-10 dark:text-gray-800 text-gray-600">
                   South Georgia College <br />
                   Pineland Academy
                 </div>

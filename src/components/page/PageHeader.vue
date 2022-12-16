@@ -2,10 +2,11 @@
   <img class="h-24 mb-5 mx-auto"
     src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/794827e6-86ba-4863-23eb-bbfdf688f200/public" />
   <h1>
-    <span class="block text-center text-lg font-semibold text-purple-500">
+    <span
+      class="bg-gradient-to-r from-sky-600 to-purple-600 bg-clip-text text-xl font-black tracking-tight text-transparent selection:bg-transparent block text-center">
       {{ content[0] }}
     </span>
-    <span class="mb-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-700">
+    <span class="mb-2 block text-center text-3xl leading-8 tracking-tight text-gray-600">
       {{ content[1] }}
     </span>
   </h1>
