@@ -88,7 +88,11 @@
                 <a href="https://linkz.network" class="text-sky-600" target="_blank">minimal
                   design I usually employ</a> for my own sites.
               </p>
-              <div class="mt-6">
+
+              <p class="my-5 text-gray-500 text-lg">Those links to the sample site
+                are a good example of how I do CRUD type projects on the front-end as well as the back-end.
+              </p>
+              <div class="mt-10">
                 <a href="https://github.com/jamesturner-dev/landingPage"
                   class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
                   Show me the code!
