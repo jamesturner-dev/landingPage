@@ -101,13 +101,16 @@
             <div class="py-6 px-5">
               <a v-on:click="buttonHandler('sign up')"
                 class="flex w-full items-center justify-center rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
-                Sign up
+                Sign In
               </a>
               <p class="mt-6 text-center text-base font-medium text-gray-500">
-                Existing customer?
-                <a v-on:click="buttonHandler('sign in')" class="text-gray-900 dark:text-gray-300 cursor-pointer">
-                  Sign in
-                </a>
+                <span class="pr-3">Toggle Dark Mode:</span>
+                <Switch v-model="isDark" :class="isDark ? 'bg-purple-700' : 'bg-neutral-200'"
+                  class="relative inline-flex h-8 w-16 items-center rounded-md">
+                  <span class="sr-only">Toggle Dark Mode</span>
+                  <span :class="isDark ? 'translate-x-10' : 'translate-x-1'"
+                    class="inline-block h-5 w-5 transform rounded-full bg-white dark:bg-black transition" />
+                </Switch>
               </p>
             </div>
           </div>
@@ -130,7 +133,10 @@ import {
   ChatBubbleLeftRightIcon, HeartIcon,
   QuestionMarkCircleIcon, CodeBracketIcon
 } from '@heroicons/vue/24/outline'
-
+import { useDark } from "@vueuse/core";
+import { ref } from "vue";
+import { Switch } from "@headlessui/vue";
+const isDark = ref(useDark());
 
 const sFire = (m) => {
   Swal.fire({
@@ -197,4 +203,7 @@ const details = [
     icon: QuestionMarkCircleIcon,
   },
 ]
+
+
+
 </script>
