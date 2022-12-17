@@ -13,7 +13,7 @@
               </span>
             </div>
             <div class="mt-6">
-              <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-500 dark:text-gray-300">
                 Custom, Professional, Development
               </h2>
               <p class="mt-4 text-lg text-gray-500">
@@ -67,7 +67,7 @@
     </div>
     <div class="mt-20 ">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-20 lg:px-0">
           <div>
             <div>
               <span
@@ -92,11 +92,19 @@
               <p class="my-5 text-gray-500 text-lg">Those links to the sample site
                 are a good example of how I do CRUD type projects on the front-end as well as the back-end.
               </p>
-              <div class="mt-10">
-                <a href="https://github.com/jamesturner-dev/landingPage"
-                  class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
-                  Show me the code!
-                </a>
+              <div class="mt-10 flex">
+                <div class="flex-1">
+                  <a href="https://github.com/jamesturner-dev/landingPage"
+                    class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
+                    Show me this sites code
+                  </a>
+                </div>
+                <div class="flex-1">
+                  <a href="https://github.com/jamesturner-dev/cb"
+                    class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
+                    Show me fullstack code!
+                  </a>
+                </div>
               </div>
             </div>
           </div>

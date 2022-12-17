@@ -6,7 +6,7 @@
       class="bg-gradient-to-r from-sky-600 to-purple-600 bg-clip-text text-xl font-black tracking-tight text-transparent selection:bg-transparent block text-center">
       {{ content[0] }}
     </span>
-    <span class="mb-2 block text-center text-3xl leading-8 tracking-tight text-gray-600">
+    <span class="mb-2 block text-center text-2xl leading-8 tracking-tight text-gray-600">
       {{ content[1] }}
     </span>
   </h1>

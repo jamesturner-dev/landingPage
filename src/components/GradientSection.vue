@@ -1,7 +1,7 @@
 <template>
   <div id="stack" class="bg-gradient-to-r from-purple-800 to-sky-700">
     <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-15">
-      <h2 class="border-b border-purple-500 text-3xl font-bold tracking-tight text-white">
+      <h2 class="border-b mr-10 border-purple-400 text-3xl font-bold tracking-tight text-white">
         I admit, I am fairly opinionated about front-end development...
       </h2>
       <p class="mt-4 max-w-3xl text-lg text-purple-100">

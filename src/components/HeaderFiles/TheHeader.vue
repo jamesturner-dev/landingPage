@@ -18,7 +18,7 @@
           <Popover class="relative" v-slot="{ open }">
             <PopoverButton
               :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded dark:bg-black bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
-              <span>Solutions</span>
+              <span>Details</span>
               <ChevronDownIcon
                 :class="[open ? 'text-gray-500' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']"
                 aria-hidden="true" />
@@ -31,7 +31,7 @@
                 class="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2">
                 <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div class="relative grid gap-6 bg-white dark:bg-black px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                    <a v-for="item in solutions" :key="item.name" :href="item.href"
+                    <a v-for="item in details" :key="item.name" :href="item.href"
                       class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50 dark:hover:bg-gray-900">
                       <div
                         class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded bg-gradient-to-r from-purple-600 to-sky-600 text-white sm:h-12 sm:w-12">
@@ -87,7 +87,7 @@
               </div>
               <div class="mt-6">
                 <nav class="grid grid-cols-1 gap-7">
-                  <a v-for="item in solutions" :key="item.name" :href="item.href"
+                  <a v-for="item in details" :key="item.name" :href="item.href"
                     class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                     <div
                       class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded bg-gradient-to-r from-purple-600 to-sky-600 text-white">
@@ -142,15 +142,6 @@ const sFire = (m) => {
   })
 }
 
-const wFire = (w) => {
-  Swal.fire({
-    title: `Do you still do ${w}?`,
-    text: `Yes, I still create WordPress sites for clients and agencies.  I charge a straight $100/hour for my services regardless of the platform.  I specialize in Vue but can work with any framework or CMS and have more than a decade of WP experience.`,
-    icon: 'info',
-    confirmButtonText: 'Cool',
-
-  })
-}
 
 const buttonHandler = (e) => {
 
@@ -180,7 +171,7 @@ const buttonHandler = (e) => {
 
 }
 
-const solutions = [
+const details = [
   {
     name: 'Custom Development',
     description: 'The modern JavaScript ecosystem is a complex. I can help you navigate it.',

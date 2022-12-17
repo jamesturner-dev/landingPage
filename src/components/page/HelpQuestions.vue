@@ -76,6 +76,20 @@
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+          <span>Why do you use Vue?</span>
+          <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
+        </DisclosureButton>
+        <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
+          <p class="mb-5">
+            Vue.js is very flexible and can be used in a variety of ways. It boasts excellent performance thanks to its
+            lightweight
+            nature and efficient rendering mechanism. The resulting applications are fast and responsive.
+          </p>
+        </DisclosurePanel>
+      </Disclosure>
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-purple-100 dark:bg-opacity-10 dark:text-gray-600 px-4 py-2 text-left text-sm font-medium text-purple-900  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
           <span>Are you on social media?</span>
           <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-purple-500" />
         </DisclosureButton>

@@ -1,16 +1,26 @@
 <template>
-  <div class="overflow-hidden bg-gray-50 dark:bg-black dark:bg-opacity-95 py-10">
+  <div class="overflow-hidden py-10 bg-gradient-to-b from-gray-100 to-white dark:from-black dark:to-gray-900">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-prose text-base lg:max-w-none">
-        <h2 class="text-lg font-semibold text-sky-500 border-b border-gray-200 dark:border-gray-800 mb-5">
-          James T Kendall
-          <div class="text-gray-400 text-sm mb-5">
-            Full Stack = Node . Express . MongoDb . Vue 3
-            <div><a href="mailto:james@jamesturner.dev" class="text-purple-400 opacity-70 hover:opacity-100">
-                james@jamesturner.dev</a>
+
+        <div class="flex-none md:flex">
+
+
+          <img class="mb-8 h-20 rounded-full" alt="James Turner Dev"
+            src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/9ee74749-b972-442c-3dfd-de8504a74400/public" />
+
+          <h2
+            class="text-lg mt-1 ml-0 md:ml-3 font-semibold text-sky-500 border-b border-gray-200 dark:border-gray-800 mb-5">
+            James T Kendall
+            <div class="text-gray-400 text-sm mb-5">
+              Full Stack = Node . Express . MongoDb . Vue 3
+              <div><a href="mailto:james@jamesturner.dev" class="text-purple-400 opacity-70 hover:opacity-100">
+                  james@jamesturner.dev</a>
+              </div>
             </div>
-          </div>
-        </h2>
+          </h2>
+        </div>
+
         <p class="text-xl -mb-5 font-bold leading-8 tracking-tight text-gray-600">
           I write code and manage modern dev stacks.
         </p>

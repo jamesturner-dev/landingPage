@@ -1,10 +1,10 @@
 <template>
-  <div class="overflow-hidden bg-gray-50 py-10">
+  <div class="overflow-hidden bg-gray-50 dark:bg-black py-10">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-prose text-base lg:max-w-none">
-        <h2 class="text-lg font-semibold text-sky-600">
+        <h4 class="text-sky-600">
           Why I choose VueJs as my prefered framework
-        </h2>
+        </h4>
         <p class="text-3xl font-bold leading-8 tracking-tight text-gray-600 sm:text-3xl">
           What makes Vue different
         </p>
@@ -13,7 +13,6 @@
         <p class="text-lg text-gray-500">
           Javascript frameworks are hot right now and widely regarded as one of the best ways of
           developing front-end applications. With all these choices at our fingertips, why use Vue?
-
         </p>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
@@ -71,12 +70,12 @@
             <defs>
               <pattern id="bedc54bc-7371-44a2-a2bc-dc68d819ae60" x="0" y="0" width="20" height="20"
                 patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-800" fill="currentColor" />
               </pattern>
             </defs>
             <rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
           </svg>
-          <blockquote class="relative rounded-lg bg-white shadow-lg">
+          <blockquote class="relative rounded-lg bg-white  shadow-lg">
             <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
               <img src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/bb412629-6cff-4e5c-f658-69b49d238300/public"
                 alt="Workcation" class="h-8" />
