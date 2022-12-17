@@ -6,8 +6,8 @@
       </p>
       <div class="mt-5 mb-5" aria-hidden="true">
         <div
-          class="overflow-hidden rounded-md bg-gradient-to-r from-gray-300 to-gray-100 dark:from-gray-700 dark:to-gray-900">
-          <div class="h-4 rounded-sm bg-gradient-to-r from-purple-500 to-sky-500 dark:from-purple-500 dark:to-sky-500"
+          class="overflow-hidden rounded-sm bg-gradient-to-r from-gray-300 to-gray-100 dark:from-gray-700 dark:to-gray-900">
+          <div class="h-5 rounded-sm bg-gradient-to-r from-purple-500 to-sky-500 dark:from-purple-500 dark:to-sky-500"
             :style="{ width: `calc((${product.step} * 2 + 1) / 8 * 100%)` }" />
         </div>
         <div class="mt-6 hidden grid-cols-4 text-base text-gray-600 sm:grid">

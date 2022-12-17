@@ -1,6 +1,7 @@
 <template>
 
   <div id="features" class="relative overflow-hidden pt-16 pb-32">
+
     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100 dark:from-gray-900" />
     <div class="relative">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
@@ -76,9 +77,11 @@
               </span>
             </div>
             <div class="mt-6">
+
               <h2 class="text-3xl font-bold tracking-tight text-gray-500 dark:text-gray-300">
                 White Label and Client Branding
               </h2>
+
               <p class="mt-4 text-lg text-gray-500">
                 Almost everything I do is white label, covered by an NDA, and/or ruined by the client.
                 So how do I show off what I do without showing off what I do? Make a few
@@ -89,20 +92,22 @@
                   design I usually employ</a> for my own sites.
               </p>
 
-              <p class="my-5 text-gray-500 text-lg">Those links to the sample site
-                are a good example of how I do CRUD type projects on the front-end as well as the back-end.
+              <p class="my-5 text-gray-500 text-lg">
+                Those links to the sample site are a good example of how I do CRUD type
+                projects on the front-end as well as the back-end.
               </p>
+
               <div class="mt-10 flex">
                 <div class="flex-1">
                   <a href="https://github.com/jamesturner-dev/landingPage"
                     class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
-                    Show me this sites code
+                    This Sites Code
                   </a>
                 </div>
                 <div class="flex-1">
                   <a href="https://github.com/jamesturner-dev/cb"
                     class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
-                    Show me fullstack code!
+                    Fullstack Example
                   </a>
                 </div>
               </div>

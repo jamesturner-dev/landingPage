@@ -1,11 +1,11 @@
 <template>
   <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-    <div>
+    <div class="pt-1">
       <Switch v-model="isDark" :class="isDark ? 'bg-purple-700' : 'bg-neutral-200'"
         class="relative inline-flex h-8 w-16 items-center rounded-md">
         <span class="sr-only">Toggle Dark Mode</span>
-        <span :class="isDark ? 'translate-x-10' : 'translate-x-1'"
-          class="inline-block h-5 w-5 transform rounded-full bg-white dark:bg-black transition" />
+        <span :class="isDark ? 'translate-x-9' : 'translate-x-0'"
+          class="inline-block h-7 w-7 transform rounded-md bg-white dark:bg-black transition" />
       </Switch>
     </div>
     <a v-on:click="buttonHandler('Sign In')"
