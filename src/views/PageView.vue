@@ -6,8 +6,8 @@
     <div v-if="pageRoute == 'about'">
       <AboutPage />
     </div>
-    <div v-if="pageRoute == 'why-vue'">
-      <WhyVue />
+    <div v-if="pageRoute == 'contact'">
+      <ContactPage />
     </div>
   </section>
 </template>
@@ -16,7 +16,7 @@
 import { useRoute } from "vue-router";
 import AboutPage from "../components/page/AboutPage.vue";
 import HelpPage from "../components/page/HelpPage.vue";
-import WhyVue from "../components/page/WhyVue.vue";
+import ContactPage from "../components/page/ContactPage.vue";
 const route = useRoute();
 const pageRoute = route.params.name; 
 </script>

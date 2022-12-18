@@ -20,9 +20,8 @@
               <p class="mt-4 text-lg text-gray-500">
                 The modern JavaScript ecosystem is a complex. I can help you navigate it.
                 I specialize in creating custom front-end interfaces to connect to your
-                existing back-end, database, API, server, etc. But I can help you plan,
+                existing back-end, database, API, server, etc. I can help you plan,
                 build, and test a custom front-end for your next big idea as well.
-
               </p>
               <div class="mt-6">
                 <a href="#"
@@ -39,20 +38,23 @@
                   &ldquo;If there is one thing that I do proficiently it's front-end web development.
                   I have worked hard to stay up to date with the latest technologies and techniques.&rdquo;</p>
               </div>
+
               <footer class="mt-3">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
                     <img class="h-10 w-10 rounded-md"
                       src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/794827e6-86ba-4863-23eb-bbfdf688f200/public"
-                      alt="" />
+                      alt="James Turner, James Turner Dev" />
                   </div>
                   <div class="-mt-1 text-lg font-medium text-gray-500">
                     James Turner, James Turner Dev
-
-                    <div class="text-gray-400 text-sm -mt-1 font-normal">Front-End Developer</div>
+                    <div class="text-gray-400 text-sm -mt-1 font-normal">
+                      Front-End Developer
+                    </div>
                   </div>
                 </div>
               </footer>
+
             </blockquote>
           </div>
         </div>
@@ -76,6 +78,7 @@
                 <LightBulbIcon class="h-8 w-8 text-white" aria-hidden="true" />
               </span>
             </div>
+
             <div class="mt-6">
 
               <h2 class="text-3xl font-bold tracking-tight text-gray-500 dark:text-gray-300">
@@ -129,14 +132,7 @@
 
 <script setup>
 import {
-  ArrowUturnLeftIcon,
-  ChatBubbleLeftEllipsisIcon,
-  DocumentChartBarIcon,
   CommandLineIcon,
-  InboxIcon,
-  PencilSquareIcon,
   LightBulbIcon,
-  TrashIcon,
-  UsersIcon,
 } from '@heroicons/vue/24/outline'
 </script>

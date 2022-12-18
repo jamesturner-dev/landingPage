@@ -17,7 +17,7 @@
 const external = [
   { name: "James' Resume", href: "/resume" },
   { name: "James on Twitter", href: "https://twitter.com/JamesTurnerDev" },
-  { name: "Why Vue?", href: "/page/why-vue" },
-  { name: "Email James", href: "mailto:james@jamesturner.dev" },
+  { name: "Why Vue?", href: "/blog/why-vue" },
+  { name: "Contact Me", href: "/page/contact" },
 ]
 </script>

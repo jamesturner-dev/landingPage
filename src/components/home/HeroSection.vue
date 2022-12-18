@@ -11,10 +11,15 @@
           <div class="absolute inset-0 bg-gradient-to-r from-purple-800 to-sky-700 mix-blend-multiply" />
         </div>
         <div class="relative px-4 py-10 sm:px-6 sm:py-24 lg:py-20 lg:px-8">
-          <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            <span class="block text-white">Take Your Front End</span>
-            <span class="block text-sky-200">to the Next Level</span>
-          </h1>
+
+          <transition name="fade" appear>
+            <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+              <span class="block text-white">Take Your Front End</span>
+              <span class="block text-sky-200">to the Next Level</span>
+            </h1>
+          </transition>
+
+
           <p class="mx-auto mt-6 max-w-lg text-center text-xl text-sky-200 sm:max-w-3xl">
             <a class="text-sky-400">
               james@jamesturner.dev

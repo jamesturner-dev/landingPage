@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-gray-50 dark:bg-black py-10">
+  <div class="overflow-hidden py-10 bg-gradient-to-b from-gray-100 to-white dark:from-black dark:to-gray-900">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-prose text-base lg:max-w-none">
         <h4 class="text-sky-600">
@@ -18,7 +18,9 @@
       <div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
         <div class="relative z-10">
           <div class="prose prose-indigo mx-auto text-gray-500 lg:max-w-none">
-            <h2 class="text-xl font-semibold text-sky-600">What is VueJs?</h2>
+            <h2 class="text-xl font-semibold text-sky-600">
+              What is VueJs?
+            </h2>
             <p class="mb-5">
               VueJs is a Javascript framework that allows developers
               to create front end web applications. With VueJs, developers can create Vue
@@ -75,11 +77,11 @@
             </defs>
             <rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
           </svg>
-          <blockquote class="relative rounded-lg bg-white  shadow-lg">
+          <blockquote class="relative rounded-lg bg-white dark:bg-black dark:bg-opacity-75 bg-opacity-60 shadow-lg">
             <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
               <img src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/bb412629-6cff-4e5c-f658-69b49d238300/public"
-                alt="Workcation" class="h-8" />
-              <div class="relative mt-8 text-lg font-medium text-gray-700">
+                alt="VueJs" class="h-8" />
+              <div class="relative mt-8 text-lg font-medium text-gray-700 dark:text-gray-500">
                 <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-200"
                   fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                   <path

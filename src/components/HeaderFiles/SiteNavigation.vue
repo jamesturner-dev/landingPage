@@ -73,7 +73,7 @@ const details = [
   {
     name: 'Message Me',
     description: "Lets talk about your project.",
-    href: 'mailto:james@jamesturner.dev',
+    href: '/page/contact',
     icon: ChatBubbleLeftRightIcon,
   },
   {

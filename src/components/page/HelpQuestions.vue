@@ -82,8 +82,8 @@
         <DisclosurePanel class="p-5 pb-2 text-sm text-gray-500">
           <p class="mb-5">
             Vue.js is very flexible and can be used in a variety of ways. It boasts excellent performance thanks to its
-            lightweight
-            nature and efficient rendering mechanism. The resulting applications are fast and responsive.
+            lightweight nature and efficient rendering mechanism. The resulting applications are fast and responsive.
+            <a href="/blog/why-vue" class="text-sky-600">Read more</a>
           </p>
         </DisclosurePanel>
       </Disclosure>
