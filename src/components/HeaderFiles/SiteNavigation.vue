@@ -3,9 +3,9 @@
     <Popover class="relative" v-slot="{ open }">
 
       <PopoverButton
-        :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded dark:bg-black bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
+        :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded dark:bg-black bg-white text-base font-medium hover:text-purple-800 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2']">
         <span class="p-1">Details</span>
-        <ChevronDownIcon :class="[open ? 'text-gray-500' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']"
+        <ChevronDownIcon :class="[open ? 'text-gray-500' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-purple-800']"
           aria-hidden="true" />
       </PopoverButton>
 
@@ -35,14 +35,14 @@
       </transition>
     </Popover>
 
-    <a href="/resume" class="p-1 cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
+    <a href="/resume" class="p-1 cursor-pointer text-base font-medium text-gray-500 hover:text-purple-800">
       Resume
     </a>
     <a href="https://github.com/jamesturner-dev/landingPage" target="_blank"
-      class="p-1 text-base font-medium text-gray-500 hover:text-gray-900">
+      class="p-1 text-base font-medium text-gray-500 hover:text-purple-800">
       This Code
     </a>
-    <a href="/page/help" class="p-1 cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900">
+    <a href="/page/help" class="p-1 cursor-pointer text-base font-medium text-gray-500 hover:text-purple-800">
       Questions?
     </a>
   </PopoverGroup>

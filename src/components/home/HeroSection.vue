@@ -37,7 +37,7 @@
                 class="flex items-center justify-center rounded border border-transparent bg-white px-3 py-1.5 text-base font-medium text-sky-700 shadow-sm hover:bg-sky-50 sm:px-8">
                 See Resume
               </a>
-              <a href="mailto:james@jamesturner.dev"
+              <a href="/page/contact"
                 class="flex items-center justify-center rounded border border-transparent bg-sky-500 bg-opacity-60 px-3 py-1.5 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">
                 Get in Touch
               </a>

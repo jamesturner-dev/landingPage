@@ -10,11 +10,11 @@
             src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/9ee74749-b972-442c-3dfd-de8504a74400/public" />
 
           <h2
-            class="text-lg mt-1 ml-0 md:ml-3 font-semibold text-sky-500 border-b border-gray-200 dark:border-gray-800 mb-5">
+            class="text-lg mt-1 ml-0 md:ml-3 font-semibold text-sky-600 border-b border-gray-200 dark:border-gray-800 mb-5">
             James T Kendall
             <div class="text-gray-400 text-sm mb-5">
               Full Stack = Node . Express . MongoDb . Vue 3
-              <div><a href="mailto:james@jamesturner.dev" class="text-purple-400 opacity-70 hover:opacity-100">
+              <div><a href="mailto:james@jamesturner.dev" class="text-purple-500 opacity-70 hover:opacity-100">
                   james@jamesturner.dev</a>
               </div>
             </div>
@@ -28,7 +28,7 @@
       <div class="relative z-10 mx-auto leading-5 max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
         <p class=" text-gray-500 pb-3">
           I like VSCode, Express, Vue, and
-          <a href="https://www.jetbrains.com/lp/mono/" class="text-purple-400 opacity-70 hover:opacity-100"
+          <a href="https://www.jetbrains.com/lp/mono/" class="text-purple-500 opacity-70 hover:opacity-100"
             target="_blank">
             Jet Brains Mono.
           </a>
@@ -107,7 +107,7 @@
                           <div class="min-w-0 flex-1 py-0">
                             <div class="text-sm leading-8 text-gray-500">
                               <span class="mr-0.5">
-                                <a :href="workHistoryItem.person.href" class="font-medium text-gray-900">
+                                <a :href="workHistoryItem.person.href" class="font-medium text-gray-700">
                                   {{
                                       workHistoryItem.person.name
                                   }}</a>
@@ -128,7 +128,7 @@
                                     <span class="absolute flex flex-shrink-0 items-center justify-center">
                                       <span :class="[tag.color, 'h-1.5 w-1.5 rounded-full']" aria-hidden="true" />
                                     </span>
-                                    <span class="ml-3.5 font-medium text-gray-900 dark:text-gray-700">{{
+                                    <span class="ml-3.5 font-medium text-gray-800 dark:text-gray-700">{{
                                         tag.name
                                     }}</span>
                                   </span>
@@ -184,13 +184,7 @@
 </template>
 
 <script setup>
-import { CommandLineIcon } from '@heroicons/vue/20/solid';
-import {
-  ChatBubbleLeftEllipsisIcon,
-  TagIcon,
-  UserCircleIcon,
-  CodeBracketIcon
-} from "@heroicons/vue/20/solid";
+import { UserCircleIcon, CodeBracketIcon } from "@heroicons/vue/20/solid";
 const workHistory = [
   {
     id: 1,

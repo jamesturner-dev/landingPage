@@ -18,6 +18,6 @@ const articles = [
   { name: "Ethereum Merge", href: "https://ambiguousredirect.com/ethereum-merge/" },
   { name: "The Free State?", href: "https://willfulminority.com/free-state/" },
   { name: "Python Podcasts", href: "https://aigg.blog/blog/python-podcastss" },
-  { name: "The Humble webform", href: "https://aigg.blog/blog/the-web-form" },
+  { name: "The Humble webform", href: "/blog/web-form" },
 ];
 </script>
