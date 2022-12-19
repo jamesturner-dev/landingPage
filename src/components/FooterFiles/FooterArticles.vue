@@ -16,7 +16,7 @@
 <script setup>
 const articles = [
   { name: "Ethereum Merge", href: "https://ambiguousredirect.com/ethereum-merge/" },
-  { name: "The Free State?", href: "https://willfulminority.com/free-state/" },
+  { name: "Fast Websites", href: "blog/fast-websites" },
   { name: "Python Podcasts", href: "https://aigg.blog/blog/python-podcastss" },
   { name: "The Humble webform", href: "/blog/web-form" },
 ];
