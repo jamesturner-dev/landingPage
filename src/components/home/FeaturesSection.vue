@@ -24,9 +24,9 @@
                 build, and test a custom front-end for your next big idea as well.
               </p>
               <div class="mt-6">
-                <a href="#"
+                <a href="/resume"
                   class="inline-flex rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1.5 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
-                  Let's Go!
+                  My Resume
                 </a>
               </div>
             </div>

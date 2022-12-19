@@ -15,9 +15,9 @@
 
 <script setup>
 const articles = [
-  { name: "Ethereum Merge", href: "https://ambiguousredirect.com/ethereum-merge/" },
-  { name: "Fast Websites", href: "blog/fast-websites" },
-  { name: "Python Podcasts", href: "https://aigg.blog/blog/python-podcastss" },
+  { name: "Why Vue", href: "/blog/why-vue" },
+  { name: "Fast Websites", href: "/blog/fast-websites" },
+  { name: "Python Podcasts", href: "/blog/python-podcasts" },
   { name: "The Humble webform", href: "/blog/web-form" },
 ];
 </script>

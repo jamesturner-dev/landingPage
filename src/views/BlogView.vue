@@ -9,6 +9,9 @@
     <div v-if="pageRoute == 'why-vue'">
       <WhyVue />
     </div>
+    <div v-if="pageRoute == 'python-podcasts'">
+      <PythonPodcasts />
+    </div>
   </section>
 </template>
 
@@ -17,6 +20,7 @@ import { useRoute } from "vue-router";
 import WebForm from "../components/blog/WebForm.vue";
 import WhyVue from "../components/blog/WhyVue.vue";
 import FastWebsites from "../components/blog/FastWebsites.vue";
+import PythonPodcasts from "../components/blog/PythonPodcasts.vue";
 const route = useRoute();
 const pageRoute = route.params.name; 
 </script>
