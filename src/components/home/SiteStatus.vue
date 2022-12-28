@@ -30,7 +30,7 @@
 
 <script setup>
 const site = {
-  step: 1,
+  step: 2,
 }
 </script>
 
