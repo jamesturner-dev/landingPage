@@ -1,5 +1,5 @@
 <template>
-  <section class="my-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <section class="my-5 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-4xl">
       <span class="font-bold text-gray-600">
         Education:
