@@ -68,7 +68,7 @@ const features = [
   },
   {
     name: 'GitHub',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'I use GitHub to host my projects. It is a great place to collaborate with others and share your work.',
     icon: ShareIcon,
   },
   {
