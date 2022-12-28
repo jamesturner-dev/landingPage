@@ -26,9 +26,9 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
-
 </template>
 
 <script setup>
@@ -47,12 +47,12 @@ import {
 const features = [
   {
     name: 'Vue 3',
-    description: 'If I had to pick one framework to use for the rest of my life, it would be Vue. It is fast, easy to learn, and has a great community.',
+    description: 'Vue is framework of choice. It is fast, easy to learn, and has a great community.',
     icon: HeartIcon,
   },
   {
     name: 'Tailwind CSS',
-    description: 'I love Tailwind. It is a utility-first CSS framework that makes it easy to build beautiful, responsive layouts.',
+    description: 'Tailwind is a utility-first CSS framework that makes it easy to build beautiful, responsive layouts.',
     icon: CodeBracketIcon,
   },
   {
@@ -62,7 +62,7 @@ const features = [
   },
   {
     name: 'Vite',
-    description: 'Vite is a build tool that makes it easy to develop Vue applications. It is fast, easy to use, and has a great community.',
+    description: 'Vite is a build tool that makes it easy to develop Vue ( and other ) applications.',
     icon: Cog6ToothIcon,
   },
   {
@@ -77,7 +77,7 @@ const features = [
   },
   {
     name: 'FormKit',
-    description: 'Why build forms from scratch when you can use FormKit? It is a Vue component library that makes it easy to build forms.',
+    description: 'Why build forms from scratch? FormKit is a Vue component that makes it easy to build forms.',
     icon: ChatBubbleLeftEllipsisIcon,
   },
   {

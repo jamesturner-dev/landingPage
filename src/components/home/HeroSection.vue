@@ -55,6 +55,6 @@ const heroData = ref({
   subtitle: 'to the Next Level',
   email: 'james@jamesturner.dev',
   blurb: "can help take your front-end from planning to production.",
-  intro: 'My front-end of choice is Vue, but I can work with any framework or library including React, Angular, and Svelte.Of course I can do vanilla JS and WordPress as well.'
+  intro: 'My front-end of choice is Vue, but I can work with any framework or library including React, Angular, and Svelte. Of course I can do vanilla JS and WordPress as well.'
 })
 </script>
