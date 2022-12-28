@@ -88,10 +88,10 @@
               <p class="mt-4 text-lg text-gray-500">
                 Almost everything I do is white label, covered by an NDA, and/or ruined by the client.
                 So how do I show off what I do without showing off what I do? Make a few
-                <a href="https://linkz.network" class="text-sky-600 hover:text-sky-500">
+                <a href="https://linkz.network" class="bluLink">
                   example sites
                 </a> and show off the code. This site is much more like the sites I build for clients than the
-                <a href="https://linkz.network" class="text-sky-600" target="_blank">minimal
+                <a href="https://linkz.network" class="bluLink" target="_blank">minimal
                   design I usually employ</a> for my own sites.
               </p>
 

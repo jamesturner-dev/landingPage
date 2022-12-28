@@ -7,6 +7,37 @@ body.swal2-shown>[aria-hidden="true"] {
   filter: blur(10px);
 }
 
+a.link {
+  cursor: pointer;
+  color: rgb(168 85 247);
+  opacity: 0.7;
+}
+
+a.link:hover {
+  opacity: 1;
+}
+
+a.bluLink {
+  cursor: pointer;
+  color: rgb(2 132 199);
+}
+
+a.bluLink:hover {
+  color: rgb(14 165 233);
+}
+
+.heroBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.125rem;
+  border-width: 1px;
+  border-color: transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
 
 .swal2-input {
   box-sizing: border-box;
