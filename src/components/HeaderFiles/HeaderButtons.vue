@@ -1,15 +1,13 @@
 <template>
   <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-    <div class="pt-1">
-      <Switch v-model="isDark" :class="isDark ? 'bg-gradient-to-r from-sky-600 to-purple-600' : 'bg-neutral-200'"
-        class="relative inline-flex h-7 w-16 items-center rounded-md">
-        <span class="sr-only">Toggle Dark Mode</span>
-        <span :class="isDark ? 'translate-x-8' : 'translate-x-1'"
-          class="inline-block h-6 w-7 transform rounded-md bg-white dark:bg-black transition" />
-      </Switch>
-    </div>
+    <Switch v-model="isDark" :class="isDark ? 'bg-gradient-to-r from-sky-600 to-purple-600' : 'bg-neutral-200'"
+      class="relative inline-flex h-6 py-3 w-16 items-center rounded-md">
+      <span class="sr-only">Toggle Dark Mode</span>
+      <span :class="isDark ? 'translate-x-10' : 'translate-x-1'"
+        class="inline-block h-5 w-5 transform rounded-md bg-white dark:bg-black transition py-2" />
+    </Switch>
     <a v-on:click="buttonHandler('Sign In')"
-      class="ml-3 inline-flex items-center justify-center whitespace-nowrap rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border px-3 py-1 text-sm font-medium text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
+      class="ml-3 inline-flex items-center justify-center whitespace-nowrap rounded border border-transparent bg-gradient-to-r from-purple-600 to-sky-600 bg-origin-border h-6 w-16 py-1 text-xs cursor-pointer font-base text-white shadow-sm hover:from-purple-700 hover:to-sky-700">
       Sign in
     </a>
   </div>
@@ -44,7 +42,6 @@ const buttonHandler = (e) => {
         'error'
       )
     }
-
 
   })
 
