@@ -1,5 +1,6 @@
 <template>
   <header>
+
     <Popover class="relative bg-white dark:bg-black">
       <div class="mx-auto flex max-w-7xl items-center justify-between p-5 md:justify-start md:space-x-10 lg:px-8">
 
@@ -72,6 +73,7 @@
 
         </PopoverPanel>
       </transition>
+
     </Popover>
   </header>
 </template>
