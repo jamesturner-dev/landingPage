@@ -33,9 +33,9 @@
               <div class="flex-shrink-0">
                 <img class="h-10 w-10 rounded-md" :src="featured.avatar" alt="James Turner Dev" />
               </div>
-              <div class="-mt-1 text-lg font-medium text-gray-500">
+              <div class="basicText">
                 James Turner Dev
-                <div class="text-gray-700 dark:text-gray-300 text-sm -mt-1 font-normal">
+                <div class="text-gray-700 dark:text-gray-300 text-xs -mt-1 font-normal">
                   Front-End Developer
                 </div>
               </div>
@@ -64,13 +64,14 @@
             </div>
 
             <div class="mt-6 text-gray-600 dark:text-gray-400">
-              <h2 class="titleText dark:text-gray-300">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
                 {{ featured.subTitle }}
               </h2>
-              <p v-html="featured.subIntro" class="mt-4 text-lg" />
-              <p class="my-5"> {{ featured.coda }} </p>
+              <p v-html="featured.subIntro" class="mt-4 basicText" />
+              <p class="my-5 basicText"> {{ featured.coda }} </p>
               <FeaturesButton />
             </div>
+
           </div>
         </div>
 

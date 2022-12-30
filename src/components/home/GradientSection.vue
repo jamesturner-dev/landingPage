@@ -1,15 +1,13 @@
 <template>
-  <div id="stack" class="bg-gradient-to-r from-purple-800 to-sky-700">
-    <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-15">
-      <h2 class="border-b mr-10 border-purple-400 text-3xl font-bold tracking-tight text-white leading-7 pb-1">
-        I am fairly opinionated about front-end development...
+  <section id="stack" class="bg-gradient-to-r from-purple-800 to-sky-700">
+    <div class="mx-auto max-w-4xl p-5 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-15">
+      <h2 class="border-b mr-10 mb-5 border-purple-400 text-3xl font-bold tracking-tight text-white leading-7 pb-1">
+        {{ data.heading }}
       </h2>
-      <p class="mt-4 max-w-3xl text-lg text-purple-100 leading-5">
-        Half the battle these days is getting the right tools in place.
-        I use the following tools to build and deploy my projects.
+      <p class="lite-subHeadings">
+        {{ data.subHeading }}
       </p>
-      <div
-        class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+      <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
         <div v-for="feature in features" :key="feature.name">
           <div>
             <span class="flex h-12 w-12 items-center justify-center rounded bg-white bg-opacity-10">
@@ -17,7 +15,7 @@
             </span>
           </div>
           <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">
+            <h3 class="lite-subHeadings">
               {{ feature.name }}
             </h3>
             <p class="mt-2 text-base text-purple-200">
@@ -26,9 +24,8 @@
           </div>
         </div>
       </div>
-
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -43,6 +40,11 @@ import {
   ShareIcon,
   SparklesIcon,
 } from '@heroicons/vue/24/outline'
+
+const data = {
+  heading: 'I am fairly opinionated about front-end development...',
+  subHeading: 'Vue is framework of choice. It is fast, easy to learn, and has a great community.',
+}
 
 const features = [
   {

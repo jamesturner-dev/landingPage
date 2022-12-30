@@ -8,6 +8,7 @@
   --sky-blu: rgb(2 132 199);
   --blu-hover: rgb(14 165 233);
   --that-purp: rgb(168 85 247);
+  --lite-purp: rgb(243 232 255);
   --darker-gray: rgb(75 85 99);
   --mid-gray: rgb(107 114 128);
 }
@@ -78,6 +79,14 @@ html.dark .swal2-popup {
   font-weight: 700;
   letter-spacing: -0.025em;
   color: var(--darker-gray);
+}
+
+.lite-subHeadings {
+  color: var(--lite-purp);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  max-width: 48rem;
+  font-weight: 500;
 }
 
 .basicText {
