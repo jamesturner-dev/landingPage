@@ -95,7 +95,7 @@ const featured = ref({
   title: 'Custom, Professional, Development',
   intro: "The modern JavaScript ecosystem is complex. I can help you navigate it. I specialize in creating custom front-end interfaces to connect to your existing back-end, database, API, server, etc. I can help you plan, build, and test a custom front-end for your next big idea as well",
   quote: "If there is one thing that I do proficiently it's front-end web development.  I have worked hard to stay up to date with the latest technologies and techniques.",
-  avatar: "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/794827e6-86ba-4863-23eb-bbfdf688f200/public",
+  avatar: "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/eeb15d18-603b-44ce-6716-5dad71a5c800/public",
   imageOne: "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/a1e6ec4c-1415-42db-8ad1-fe6b86ba8a00/public",
   imageTwo: "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/d6d4bd89-3670-4093-371f-313f7d33b100/public",
   subTitle: "White Label and Client Branding",
