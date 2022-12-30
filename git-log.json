@@ -1,0 +1,210 @@
+[{
+  "commit": "ce53371edb07dc7812aebf7df17f4d878ad0a67b",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 30 12:11:46 2022 -0500",
+  "message": "ch-cha-ch-changes"
+},
+{
+  "commit": "00273dac504893410fa83936aa9886667ddcee2a",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 30 10:03:34 2022 -0500",
+  "message": "Post-deploy-CSS-fine-tuning"
+},
+{
+  "commit": "95a2f3fc94ee814ba7eee2b6ee424fcbe206d315",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 22:58:17 2022 -0500",
+  "message": "Re-deploy"
+},
+{
+  "commit": "0e57053226900986109e654e7cb6742e593a492d",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 22:57:13 2022 -0500",
+  "message": "Fixed-the-hero-image-size-issue"
+},
+{
+  "commit": "5eea5039dd2be431f57ff86408b26ee5318f1802",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 22:38:35 2022 -0500",
+  "message": "Deployed"
+},
+{
+  "commit": "2fefa1b60b457ffa6851e51dce2b6c9a3c59ca2a",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 22:21:25 2022 -0500",
+  "message": "robots-txt-in-build"
+},
+{
+  "commit": "43e4ba5a25a07d426efa4528844f81a7d9acead7",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 22:09:21 2022 -0500",
+  "message": "Fixed-Why-Vue-added-robots.txt-sitemap.xml"
+},
+{
+  "commit": "c6ad34f00959c3aaac6555fb8ed9ce20eb1e2971",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 16:14:23 2022 -0500",
+  "message": "dist"
+},
+{
+  "commit": "38379cb623da9c01bc2753065062eeb780492cca",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 16:11:38 2022 -0500",
+  "message": "Ok-lets-generate-and-deploy"
+},
+{
+  "commit": "12d7b4bb37ae71ea747f355c70230e8668c4da01",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 29 11:12:13 2022 -0500",
+  "message": "Refined-Header-Buttons"
+},
+{
+  "commit": "2d96213145424b3db0b5b4c5f861dc0ec05189c8",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 17:28:38 2022 -0500",
+  "message": "updated-status"
+},
+{
+  "commit": "1f8abb6cd9760d2eba8f1193852db4bc3b17e37f",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 16:17:31 2022 -0500",
+  "message": "component-cleanup"
+},
+{
+  "commit": "3bb371cb277973c1005f5d164279641e1c064290",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 13:17:33 2022 -0500",
+  "message": "Hero-section-refactor"
+},
+{
+  "commit": "e8b02971f298275f261158be9135defa5fd8f8a4",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 11:49:12 2022 -0500",
+  "message": "Resume-cleanup"
+},
+{
+  "commit": "b67e932a32074cf983232c104fbec2df510506d4",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 11:29:59 2022 -0500",
+  "message": "resume-components"
+},
+{
+  "commit": "becccd8d9634f0c09e750e4811a09a746633ed4e",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Wed Dec 28 09:37:55 2022 -0500",
+  "message": "Custom-Favicon"
+},
+{
+  "commit": "bbf64a6ac9de8d24ce3f8235c991fd62efbb5754",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Tue Dec 27 20:06:25 2022 -0500",
+  "message": "fixed-site-stats"
+},
+{
+  "commit": "a6f00d8619a87b1938514ffcd13b15e3a865407e",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Tue Dec 27 20:03:17 2022 -0500",
+  "message": "loop-through-site-stats"
+},
+{
+  "commit": "c50988e1a45a86cb99cdf7b45371346b6f722566",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Tue Dec 27 19:43:58 2022 -0500",
+  "message": "Fixed-the-github-blurb"
+},
+{
+  "commit": "ca88d6e9191d68a862b85f30a4a7560017f58ffd",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Mon Dec 19 14:28:46 2022 -0500",
+  "message": "Ready-for-delpoy"
+},
+{
+  "commit": "7208e636d6cb30dc75759514c04e452ca9b50048",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Mon Dec 19 11:56:06 2022 -0500",
+  "message": "after-deploy"
+},
+{
+  "commit": "e00bf22e15207a27fe8b7c7dce140894ed947643",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Sun Dec 18 21:19:14 2022 -0500",
+  "message": "Blog-Posts-and-final-finish"
+},
+{
+  "commit": "8c0ab668a41d543fa7b47d093d2ecc3740c17ede",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Sun Dec 18 11:25:33 2022 -0500",
+  "message": "I-guess-its-a-full-blown-website-now"
+},
+{
+  "commit": "a1815b6d4727a4c18a491f09cca536002bfe7280",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Sat Dec 17 12:20:15 2022 -0500",
+  "message": "Orginized-code-better-code-refactor"
+},
+{
+  "commit": "44e21dc983435c7df808de548b05ffb248cf7e7b",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 16 21:12:40 2022 -0500",
+  "message": "Add-dark-mode-to-modile-menu-or-can-t-toggle"
+},
+{
+  "commit": "b8d80824965983cd277e085c071428313de082cb",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 16 21:02:08 2022 -0500",
+  "message": "Why-Vue"
+},
+{
+  "commit": "190aee46301219dd968954799f7cd21697ff20e2",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 16 14:05:56 2022 -0500",
+  "message": "Updating-readme"
+},
+{
+  "commit": "1b48dd002e864918097f9a657bfa70dcc8e5b7d4",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Fri Dec 16 13:42:16 2022 -0500",
+  "message": "It-s-getting-close-but-don-t-rush-the-deploy"
+},
+{
+  "commit": "100b87eff9d6ebc4c653dda450654d5dd6546617",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 21:24:47 2022 -0500",
+  "message": "Homepage-anchor-links-getting-close"
+},
+{
+  "commit": "66adab1c5128674038ffa8c08f1ef7c5c6af77dd",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 18:44:41 2022 -0500",
+  "message": "clean-up-stardardization-etc"
+},
+{
+  "commit": "8c0c4cc3c244e23e309d6d3c13a9dccc5f72ca69",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 14:19:51 2022 -0500",
+  "message": "Footer-Fixes"
+},
+{
+  "commit": "61f92ae57d85bfb1386b2179064720802c0714f3",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 14:09:47 2022 -0500",
+  "message": "That-was-a-confusing-mistake-Footer-bug-fixed"
+},
+{
+  "commit": "261903fcb588fea639bcc376e971dfc824993cfa",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 13:07:45 2022 -0500",
+  "message": "Added-Vue-Router-and-Pages"
+},
+{
+  "commit": "89d5d9810ac5da6099ffa31118f7828f9f4f96cd",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Thu Dec 15 11:49:04 2022 -0500",
+  "message": "Initial-site-sections-initial-content-pre-test"
+},
+{
+  "commit": "639ef628986d948c2958ffb0d472230411037788",
+  "author": "jamesturner-dev <james@jamesturner.dev>",
+  "date": "Mon Dec 12 18:27:58 2022 -0500",
+  "message": "init-commit"
+}]
