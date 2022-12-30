@@ -11,7 +11,7 @@
           </div>
 
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-500 dark:text-gray-300">
+            <h2 class="titleText dark:text-gray-300">
               {{ featured.title }}
             </h2>
             <p class="mt-4 text-lg text-gray-500 leading-6">
@@ -47,7 +47,7 @@
           <div class="-mr-48 pl-4 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
             <img
               class="w-full rounded-xl shadow-xl ring-opacity-0 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              :src="featured.imageOne" alt="James Turner Dev" />
+              :src="featured.imageOne" alt="James Turner Dev" loading="lazy" />
           </div>
         </div>
       </div>
@@ -64,14 +64,13 @@
             </div>
 
             <div class="mt-6 text-gray-600 dark:text-gray-400">
-              <h2 class="text-3xl font-bold tracking-tight text-gray-700 dark:text-gray-300">
+              <h2 class="titleText dark:text-gray-300">
                 {{ featured.subTitle }}
               </h2>
               <p v-html="featured.subIntro" class="mt-4 text-lg" />
               <p class="my-5"> {{ featured.coda }} </p>
               <FeaturesButton />
             </div>
-
           </div>
         </div>
 
@@ -79,7 +78,7 @@
           <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
             <img
               class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-              :src="featured.imageTwo" :alt="featured.title" />
+              :src="featured.imageTwo" :alt="featured.title" loading="lazy" />
           </div>
         </div>
       </div>

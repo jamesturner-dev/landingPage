@@ -6,7 +6,8 @@
 
       <div class="relative shadow-xl sm:overflow-hidden sm:rounded">
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" :src="heroData.image" alt="Front-End Development" />
+          <img class="h-full w-full object-cover" :src="heroData.image" fetchpriority="high"
+            alt="Front-End Development" />
           <div class="absolute inset-0 bg-gradient-to-r from-purple-800 to-sky-700 mix-blend-multiply" />
         </div>
 
@@ -50,7 +51,6 @@
 <script setup>
 import { ref } from 'vue'
 const heroData = ref({
-  // image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100',
   image: 'https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/b1c51acb-c27e-4f57-6ce9-acc9e7ec9900/public',
   title: 'Take Your Front End',
   subtitle: 'to the Next Level',

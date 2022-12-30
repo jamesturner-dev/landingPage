@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Develop this as I go */
+:root {
+  --sky-blu: rgb(2 132 199);
+  --blu-hover: rgb(14 165 233);
+  --that-purp: rgb(168 85 247);
+  --darker-gray: rgb(75 85 99);
+  --mid-gray: rgb(107 114 128);
+}
+
 body.swal2-shown>[aria-hidden="true"] {
   transition: 0.1s filter;
   filter: blur(10px);
@@ -9,7 +19,7 @@ body.swal2-shown>[aria-hidden="true"] {
 
 a.link {
   cursor: pointer;
-  color: rgb(168 85 247);
+  color: var(--that-purp);
   opacity: 0.7;
 }
 
@@ -19,11 +29,11 @@ a.link:hover {
 
 a.bluLink {
   cursor: pointer;
-  color: rgb(2 132 199);
+  color: var(--sky-blu);
 }
 
 a.bluLink:hover {
-  color: rgb(14 165 233);
+  color: var(--blu-hover);
 }
 
 .heroBtn {
@@ -67,8 +77,25 @@ html.dark .swal2-popup {
   margin-bottom: -1.25rem;
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: rgb(75 85 99);
+  color: var(--darker-gray);
 }
+
+.basicText {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: var(--mid-gray);
+}
+
+.titleText {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--mid-gray);
+}
+
 
 .responseCode {
   font-size: 3rem;
