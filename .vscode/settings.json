@@ -1,5 +1,5 @@
 {
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "tailwindCSS.includeLanguages": {
@@ -7,5 +7,6 @@
   },
   "editor.quickSuggestions": {
     "strings": true
-  }
+  },
+  "html.format.wrapLineLength": 100,
 }

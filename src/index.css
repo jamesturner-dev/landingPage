@@ -9,7 +9,7 @@
   --blu-hover: rgb(14 165 233);
   --that-purp: rgb(168 85 247);
   --lite-purp: rgb(243 232 255);
-  --darker-gray: rgb(75 85 99);
+  --darker-gray: rgb(82, 93, 109);
   --mid-gray: rgb(107 114 128);
 }
 
@@ -45,6 +45,22 @@ a.bluLink:hover {
   border-width: 1px;
   border-color: transparent;
   padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.bigButtons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: transparent;
+  color: #fff;
+  background-origin: border-box;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -105,11 +121,28 @@ html.dark .swal2-popup {
   color: var(--mid-gray);
 }
 
-
 .responseCode {
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
   letter-spacing: -0.025em;
   font-weight: 900;
+}
+
+.pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -5rem;
+  margin-top: -5rem;
+}
+
+.resumeFooter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  font-style: normal;
 }

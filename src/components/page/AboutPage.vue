@@ -1,11 +1,3 @@
-<script setup>
-import PageHeader from './PageHeader.vue';
-const content = [
-  "James Turner Dev's linkz.network",
-  "What is this all about then?"
-];
-</script>
-
 <template>
   <div class="relative overflow-hidden p-5">
     <div class="mx-auto max-w-prose text-lg">
@@ -38,12 +30,12 @@ const content = [
         It would be cooler if it was multi-user
       </h2>
       <p class="text-gray-500 text-sm">
-        It still felt a little flimsy so I thought - why not make it multi-user 
+        It still felt a little flimsy so I thought - why not make it multi-user
         so other people could use it to create their own directory and
         manage their own links?
       </p>
-      <p class="text-gray-500 my-5 text-sm"> This is a version of the front-end 
-      without the admin interface / limited functionality.  
+      <p class="text-gray-500 my-5 text-sm"> This is a version of the front-end
+        without the admin interface / limited functionality.
         If nothing else it does show how I approach a <strong>full stack project</strong> . You can
         <a class="text-purple-700" href="https://github.com/jamesturner-dev/cb">
           read more about it here as well as check out the full code
@@ -53,3 +45,11 @@ const content = [
     </div>
   </div>
 </template>
+
+<script setup>
+import PageHeader from './PageHeader.vue';
+const content = [
+  "James Turner Dev's linkz.network",
+  "What is this all about then?"
+];
+</script>

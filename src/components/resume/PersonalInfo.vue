@@ -3,12 +3,13 @@
     <div class="flex-none md:flex">
       <img class="mb-8 h-20 rounded-full" :alt="personal.name" :src="personal.image" />
       <h2
-        class="text-lg mt-1 ml-0 md:ml-3 font-semibold text-sky-600 border-b border-gray-200 dark:border-gray-800 mb-5">
+        class="text-lg mt-1 ml-0 md:ml-3 font-semibold text-purple-700 border-b border-gray-200 dark:border-gray-800 mb-5">
         {{ personal.name }}
         <div class="text-gray-400 text-sm -mb-2">
           {{ personal.stack }}
         </div>
-        <a href="mailto:james@jamesturner.dev" class="link text-sm mb-3">
+        <a href="mailto:james@jamesturner.dev"
+          class="text-sky-500 hover:text-pink-500 text-sm mb-3">
           {{ personal.email }}
         </a>
       </h2>

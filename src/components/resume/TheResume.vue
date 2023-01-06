@@ -6,7 +6,8 @@
         <div class="relative py-8">
 
           <span v-if="workHistoryItemIdx !== workHistory.length - 1"
-            class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200 dark:bg-gray-900" aria-hidden="true" />
+            class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200 dark:bg-gray-900"
+            aria-hidden="true" />
           <div class="relative flex items-start space-x-3">
 
             <template v-if="workHistoryItem.type === 'comment'">
@@ -16,7 +17,8 @@
                   class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400 dark:bg-gray-800 ring-8 ring-white dark:ring-gray-900"
                   :src="workHistoryItem.imageUrl" alt="James Turner Dev Work History" />
 
-                <span class="absolute -bottom-0.5 -right-1 rounded-tl bg-white dark:bg-gray-900 px-0.5 py-px">
+                <span
+                  class="absolute -bottom-0.5 -right-1 rounded-tl bg-white dark:bg-gray-900 px-0.5 py-px">
                   <CodeBracketIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
                 </span>
               </div>
@@ -35,7 +37,8 @@
 
             </template>
 
-            <template v-else-if="workHistoryItem.type === 'tags'" condition="workHistoryItem.type === 'tags'">
+            <template v-else-if="workHistoryItem.type === 'tags'"
+              condition="workHistoryItem.type === 'tags'">
               <div>
                 <div class="relative px-1">
                   <div
@@ -66,7 +69,8 @@
                       <span
                         class="relative inline-flex items-center rounded-full border border-gray-300 dark:border-gray-800 px-3 py-0.5 text-sm">
                         <span class="absolute flex flex-shrink-0 items-center justify-center">
-                          <span :class="[tag.color, 'h-1.5 w-1.5 rounded-full']" aria-hidden="true" />
+                          <span :class="[tag.color, 'h-1.5 w-1.5 rounded-full']"
+                            aria-hidden="true" />
                         </span>
                         <span class="ml-3.5 font-medium text-gray-800 dark:text-gray-700">
                           {{ tag.name }}
@@ -83,12 +87,9 @@
               </div>
             </template>
           </div>
-
         </div>
       </li>
     </ul>
-
-
   </section>
 </template>
 
@@ -134,6 +135,15 @@ const workHistory = [
   {
     id: 3,
     type: "comment",
+    person: { name: "Headlin3s", href: "#" },
+    imageUrl:
+      "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/5d2a9a42-a176-4c18-e7a7-0e1ef33ffb00/public",
+    comment: "Headlin3s collects news stories from around the world, categorizes, summarizes, and determines each story's bias. It then ranks them for relevance, reputation, and quality and posts the highest rated each day. This is my oldest running project and uses Python in addition to Javascript / Vue.",
+
+  },
+  {
+    id: 4,
+    type: "comment",
     person: { name: "Habooble", href: "#" },
     imageUrl:
       "https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/46eef8bf-3562-4362-b23a-5c3681aec500/public",
@@ -141,7 +151,7 @@ const workHistory = [
 
   },
   {
-    id: 4,
+    id: 5,
     type: "comment",
     person: { name: "i-click Network", href: "#" },
     imageUrl:
@@ -150,7 +160,7 @@ const workHistory = [
 
   },
   {
-    id: 5,
+    id: 6,
     type: "comment",
     person: { name: "D2 Interactive", href: "#" },
     imageUrl:

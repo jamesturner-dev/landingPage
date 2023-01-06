@@ -4,7 +4,7 @@
       <span class="font-bold text-gray-600">
         Education:
       </span>
-      <div class="mt-3 ml-3 pb-10 dark:text-gray-800 text-gray-600">
+      <div class="mt-3 ml-3 pb-10 text-gray-500">
         South Georgia College <br />
         Pineland Academy
       </div>
