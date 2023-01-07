@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-10">
+  <div class="">
     <h3 class="text-sm font-medium text-purple-300">
       Other Sites:
     </h3>
