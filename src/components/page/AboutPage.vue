@@ -10,30 +10,36 @@
         working on the project I was the sole developer on. You know, it was
         <span class="text-purple-700">my</span> project.
       </p>
+
       <p class="text-gray-600 font-bold mt-10 text-lg">
         Not legally of course, so I had to let it go.
       </p>
+
       <p class="text-gray-500 dark:gray-300 mt-5 text-sm">
-        I had a couple of projects I had started before that gig, one being
-        <a class="text-purple-700" href="https://headlin3s.com">
-          Headlin3s </a> but I wanted to create something new and fresh - the
-        way I wanted to do it. I also wanted to create something that I could
+        I had a couple of projects I had started before that gig, one being <a
+          class="text-purple-700" href="https://headlin3s.com">
+          Headlin3s </a> but I wanted to create something new and fresh - the way I wanted to do it.
+        I also wanted to create something that I could
         get posted before my severance ran out as a resume piece.
       </p>
+
       <p class="text-gray-500 mt-5 text-sm">
         I decided to create a system to track all the links from my various
         web projects. I decided to go ahead and implement a short url type of
         scheme, and then I thought why not create some directory type views of
         the links?
       </p>
+
       <h2 class="text-gray-600 font-bold mb-5 mt-10">
         It would be cooler if it was multi-user
       </h2>
+
       <p class="text-gray-500 text-sm">
         It still felt a little flimsy so I thought - why not make it multi-user
         so other people could use it to create their own directory and
         manage their own links?
       </p>
+
       <p class="text-gray-500 my-5 text-sm"> This is a version of the front-end
         without the admin interface / limited functionality.
         If nothing else it does show how I approach a <strong>full stack project</strong> . You can
