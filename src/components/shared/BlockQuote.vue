@@ -21,7 +21,7 @@
         class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
         <img class="h-12 w-12 rounded-full bg-indigo-300 sm:h-20 sm:w-20"
           src="https://imagedelivery.net/jUv0WjkQAcJxE0kRYIap3Q/7f23edde-534b-4a88-8642-55fc9880e300/public"
-          alt="" />
+          alt="James Turner Dev Front End Development" />
       </span>
       <span class="relative ml-4 font-semibold leading-6 text-sky-200 sm:ml-24 sm:pl-1">
         <span class="font-semibold text-white sm:inline">James Turner Dev</span>
